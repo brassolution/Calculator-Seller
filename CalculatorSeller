@@ -1,0 +1,4 @@
+npx create-react-app kalkulator-harga
+cd kalkulator-harga
+# tampal komponen React (PriceCalculator) ke src/App.js
+npm install
