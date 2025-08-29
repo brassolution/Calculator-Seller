@@ -2,3 +2,9 @@ npx create-react-app kalkulator-harga
 cd kalkulator-harga
 # tampal komponen React (PriceCalculator) ke src/App.js
 npm install
+npm install @capacitor/core @capacitor/cli --save
+npx cap init "Kalkulator Harga" "com.nama.kalkulator" --web-dir=build
+npm run build
+npm run build
+npx cap copy android
+npx cap open android
